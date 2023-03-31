@@ -1,0 +1,1 @@
+If[SolutionMethod == FOC   || SolutionMethod == Both,<<clear_functions.m;<<function_definitions_FOC.m];If[SolutionMethod == Value || SolutionMethod == Both,<<function_definitions_Value.m];

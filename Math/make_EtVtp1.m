@@ -1,0 +1,1 @@
+(*% Assuming that you have already solved for the current LifePosn, % construct the expectation of next periods Vt*)If[SolutionMethod == Value,<<make_EtVtp1_Value.m];If[SolutionMethod == FOC,  <<make_EtVtp1_FOC.m];If[SolutionMethod == Both, <<make_EtVtp1_Value.m;<<make_EtVtp1_FOC.m];
